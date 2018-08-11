@@ -21,6 +21,10 @@
   <link rel="stylesheet" type="text/css" media="screen" href="css/fonts.css">
   <link rel="stylesheet" type="text/css" media="screen" href="css/onglets.css" />
 
+  <!-- Font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+
   <!-- Start WOWSlider.com -->
   <link rel="stylesheet" type="text/css" href="Slider/engine1/style-slider.css" />
   <script type="text/javascript" src="Slider/engine1/jquery.js"></script>
@@ -68,8 +72,7 @@
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
 
-  <div class="container-fluid">
-
+  <div>
     <!-- = SCROLL TO TOP -->
     <div id="top"></div>
 
@@ -81,106 +84,101 @@
     </div>
     <!-- = END SCROLL TO TOP -->
 
-    <div id="header-top">
-      <div id="left">
-        <p>Ouvert du lundi au samedi de 17h à 02h |
-          <a href="mailto:contact@r4ndombar.com" style="color:#FFF;"> contact@r4ndombar.com </a>| 05 33 57 75 81</p>
-
-        <div id="reseaux">
-          <a href="https://www.facebook.com/r4ndom.bordeaux" onClick="window.open(this.href,'_blank'); return false;">
-            <img src="img/logo_fb2.png" name="image1" onMouseOver="image1.src = 'img/logo_fb3.png';" height="35px" width="35px" title="facebook r4ndom"
-              alt="facebook r4ndom" onMouseOut="image1.src = 'img/logo_fb2.png';" />
-          </a>
-
-          <a href="https://twitter.com/r4ndom_bar" onClick="window.open(this.href,'_blank'); return false;">
-            <img src="img/logo_twitter3.png" name="image2" onMouseOver="image2.src = 'img/logo_twitter4.png';" height="35px" width="35px"
-              title="twitter r4ndom" alt="twitter r4ndom" onMouseOut="image2.src = 'img/logo_twitter3.png';" />
-          </a>
-
-          <a href="https://plus.google.com/104177275824240666210" onClick="window.open(this.href,'_blank'); return false;">
-            <img src="img/logo_google3.png" name="image3" onMouseOver="image3.src = 'img/logo_google4.png';" height="35px" width="35px"
-              title="google + r4ndom" alt="google plus r4ndom" onMouseOut="image3.src = 'img/logo_google3.png';" />
-          </a>
-
-          <a href="https://www.instagram.com/r4ndombar/" onClick="window.open(this.href,'_blank'); return false;">
-            <img src="img/logo_insta3.png" name="image4" onMouseOver="image4.src = 'img/logo_insta4.png';" height="35px" width="35px"
-              title="instagram r4ndom" alt="instagram r4ndom" onMouseOut="image4.src = 'img/logo_insta3.png';" />
-          </a>
-
-          <a href="https://www.pinterest.com/r4ndom_bar" onClick="window.open(this.href,'_blank'); return false;">
-            <img src="img/logo_pint3.png" name="image5" onMouseOver="image5.src = 'img/logo_pint4.png';" height="35px" width="35px" title="pinterest r4ndom"
-              alt="pinterest r4ndom" onMouseOut="image5.src = 'img/logo_pint3.png';" />
-          </a>
+    <div class="container-fluid">
+      <div class="banner-top row justify-content-between p-1">
+        <div id="left" class="col-auto pt-2">
+          <p>Ouvert du lundi au samedi de 17h à 02h |
+            <a href="mailto:contact@r4ndombar.com" style="color:#FFF;"> contact@r4ndombar.com </a>| 05 33 57 75 81</p>
+        </div>
+        <div class="login col">
+          <button class="login-btn1">
+            <img src="img/icon-login.png" />Se connecter</button>
+          <button class="login-btn2">
+            <img src="img/icon-inscription.png" />S'inscrire</button>
         </div>
       </div>
-      <!-- left -->
-
-      <div class="login">
-        <button class="login-btn1">
-          <img src="img/icon-login.png" />Se connecter</button>
-        <button class="login-btn2">
-          <img src="img/icon-inscription.png" />S'inscrire</button>
-      </div>
-
-
-      <div id="nav-header">
-        <nav class="navbar" id="navbar">
-          <div id="logo-r4ndom">
-            <a href="http://www.r4ndombar.com/">
-              <img src="img/logo_r4ndom.png" />
-            </a>
-          </div>
-
-          <ul id="menu">
-            <li>
-              <a href="#carte" style="text-decoration:none;" alt="la carte du r4ndom">LA CARTE</a>
-            </li>
-
-            <li>
-              <a href="#/" alt="le r4ndom">LE BAR ⌄</a>
-              <ul class="sousMenu">
-                <li>
-                  <a href="#concept" alt="le concept du r4ndom bar">Le concept</a>
-                </li>
-                <li>
-                  <a href="#team" alt="la team du r4ndom">La team</a>
-                </li>
-                <li>
-                  <a href="#consoles" alt="consoles et jeux du r4ndom">Consoles & jeux</a>
-                </li>
-                <li>
-                  <a href="#photo" alt="photos et vidéos du r4ndom">Photos & vidéos</a>
-                </li>
-              </ul>
-            </li>
-
-            <li>
-              <a href="#/" alt="L'actu du r4ndom">NEWS ⌄</a>
-              <ul class="sousMenu">
-                <li>
-                  <a href="#news">Rejoignez-nous sur facebook</a>
-                </li>
-                <li>
-                  <a href="#news">Suivez-nous sur twitter</a>
-                </li>
-              </ul>
-            </li>
-
-            <li>
-              <a href="https://www.facebook.com/pg/r4ndom.bordeaux/events/?ref=page_internal" alt="les évents du r4ndom" onclick="window.open(this.href,'_blank'); return false;">ÉVENTS</a>
-            </li>
-
-            <li>
-              <a href="#" alt="Boutique" style="color:#D3D3D3;cursor: not-allowed">BOUTIQUE</a>
-            </li>
-
-            <li>
-              <a id="liencontact" href="#contact" alt="Contact r4ndom">CONTACT</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
     </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a href="http://www.r4ndombar.com/" class="navbar-brand">
+        <img src="img/logo_r4ndom.png" />
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenuContent" aria-controls="navbarMenuContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarMenuContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#carte" alt="la carte du r4ndom">LA CARTE</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="leBarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false" alt="le r4ndom">LE BAR</a>
+            <div class="dropdown-menu" aria-labelledby="leBarDropdown">
+              <a class="dropdown-item" href="#concept" alt="le concept du r4ndom bar">Le concept</a>
+              <a class="dropdown-item" href="#team" alt="la team du r4ndom">La team</a>
+              <a class="dropdown-item" href="#consoles" alt="consoles et jeux du r4ndom">Consoles & jeux</a>
+              <a class="dropdown-item" href="#photo" alt="photos et vidéos du r4ndom">Photos & vidéos</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="actuDropDown" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false" alt="le r4ndom">NEWS</a>
+            <div class="dropdown-menu" aria-labelledby="actuDropDown">
+              <a class="dropdown-item" href="#news" alt="le concept du r4ndom bar">Rejoignez-nous sur facebook</a>
+              <a class="dropdown-item" href="#news" alt="la team du r4ndom">Suivez-nous sur twitter</a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.facebook.com/pg/r4ndom.bordeaux/events/?ref=page_internal" alt="les évents du r4ndom"
+              target="_blank">
+              ÉVENTS
+              <span class="fa fa-globe-americas"></span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link disabled" alt="Boutique" href="#">BOUTIQUE</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contact" alt="Contact r4ndom">CONTACT</a>
+          </li>
+
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" target="_blank" href="https://www.facebook.com/r4ndom.bordeaux">
+              <span class="fab fa-facebook-f"></span>
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" target="_blank" href="https://twitter.com/r4ndom_bar">
+              <span class="fab fa-twitter"></span>
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" target="_blank" href="https://www.instagram.com/r4ndombar/">
+              <span class="fab fa-instagram"></span>
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" target="_blank" href="https://www.pinterest.com/r4ndom_bar">
+              <span class="fab fa-pinterest"></span>
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" target="_blank" href="https://plus.google.com/104177275824240666210">
+              <span class="fab fa-google-plus-g"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
     <!-- Start WOWSlider.com -->
     <div id="wowslider-container1">

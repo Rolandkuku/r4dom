@@ -1,733 +1,890 @@
+/*
+	Bootstrap overrides
+*/
+
+.navbar-light .navbar-nav .nav-link {
+  color: #00b6ed;
+}
+
 /* = GENERAL STYLING CSS
 -------------------------------------------------------------- */
 body {
-	background: #efefef ;
-	font: 12px 'Andale Mono';
-	color: #666;
-	line-height: 1;
-	padding:0;
-	margin:0 auto;
-	border:0;
-	vertical-align: baseline;}
+  background: #efefef;
+  font: 12px "Andale Mono";
+  color: #666;
+  line-height: 1;
+  padding: 0;
+  margin: 0 auto;
+  border: 0;
+  vertical-align: baseline;
+}
 
 body {
-    min-width: 400px;
-	min-height: 100%;
-	margin: 0;
-	padding: 0;
+  min-width: 400px;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 img {
-	width:auto;
-	border: 0;}
+  width: auto;
+  border: 0;
+}
 
-a {	color: #00b6ed;
-	text-decoration: none;
-	outline: none;}
+a {
+  color: #00b6ed;
+  text-decoration: none;
+  outline: none;
+}
 
 a:hover {
-	text-decoration:underline;}
+  text-decoration: underline;
+}
 
 a:active {
-	outline:none;}
+  outline: none;
+}
 
 p {
-	margin: 0 0 1.2em;
-	padding: 0;}
+  margin: 0 0 1.2em;
+  padding: 0;
+}
 
 ul {
-	list-style: none;}
+  list-style: none;
+}
 
-blockquote, q {
-	quotes: none;}
+blockquote,
+q {
+  quotes: none;
+}
 
-blockquote:before, blockquote:after,q:before, q:after {
-	content: '';
-	content: none;}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
 
 hr {
-	display:block;
-	clear: both;
-	width: auto;
-	height:1px;
-	border:0;
-	border-top:1px solid #9F9D9D;
-	margin-top:0px;
-	margin-bottom:0;
-	text-align: center;
-	padding:0px;}
+  display: block;
+  clear: both;
+  width: auto;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #9f9d9d;
+  margin-top: 0px;
+  margin-bottom: 0;
+  text-align: center;
+  padding: 0px;
+}
 
 .container {
-	width: auto;
-	min-height: 100%;
-	cursor:default;
-	margin:0 auto;
-	overflow: hidden;}
+  width: auto;
+  min-height: 100%;
+  cursor: default;
+  margin: 0 auto;
+  overflow: hidden;
+}
 
 /* = FB BUTTON LIKE CSS
 -------------------------------------------------------------- */
 #b-like {
-	float:right;
-	position:absolute;
-	margin-left:90px;
-	margin-top:-5px;}
+  float: right;
+  position: absolute;
+  margin-left: 90px;
+  margin-top: -5px;
+}
 
 /* = SCROLL TO TOP CSS
 -------------------------------------------------------------- */
 #scrollToTop {
-	bottom:30px;
-	right:30px;
-	position:fixed;
-  	cursor: pointer;
-	float:right;
-	z-index:1;}
+  bottom: 30px;
+  right: 30px;
+  position: fixed;
+  cursor: pointer;
+  float: right;
+  z-index: 1;
+}
 
 /* = HEADER CSS
 -------------------------------------------------------------- */
-#header-top {
-	display: inline-block;
-	background-color:#00b6ed;
-	position:fixed;
-	width: auto;
-	height: 50px;
-	z-index: 1000;}
+.banner-top {
+  background-color: #00b6ed;
+  /* position: fixed; */
+  /* width: 100%; */
+  /* top: 0; */
+  /* z-index: 1000; */
+}
 
-#left {
-	display: inline-block;
-	padding-top: 10px;
-	padding-left: 20px;
-	letter-spacing:-1px;
-	text-align:left;
-	height: 35px;
-	font-size:14px;
-	color: #FFF;}
+#header-top {
+  background-color: #00b6ed;
+  z-index: 1000;
+}
 
 #reseaux {
-	position: absolute;
-	text-align:center;
-	padding:0px;
-	margin-top:-1px;
-	margin-left:750px;}
+  position: absolute;
+  text-align: center;
+  padding: 0px;
+  margin-top: -1px;
+  margin-left: 750px;
+}
 
 #logo-r4ndom img {
-	float:left;
-	z-index:3;}
+  float: left;
+  z-index: 3;
+}
 
 #nav-header {
-	margin-top: -10px;
-	float:left;
-	width: 100%;
-	height:50px;
-	z-index:3;}
+  margin-top: -10px;
+  float: left;
+  width: 100%;
+  height: 50px;
+  z-index: 3;
+}
 
 /* = LOGIN CSS
 -------------------------------------------------------------- */
 .login {
-	padding-top: 5px;
-	float:right;
-	z-index:3;
-	cursor: not-allowed;}
-
-.login-btn1, .login-btn2 {
-	height:20px;
-	vertical-align:middle;
-	text-decoration:none;
-	color:#fff;
-	background-color:#00b6ed;
-	cursor:not-allowed;
-	font-family:'Andale Mono';
-	font-size:16px;
-	border:none;
-	border-radius:0;
+  padding-top: 5px;
+  float: right;
+  z-index: 3;
+  cursor: not-allowed;
 }
 
-.login-btn1:hover, .login-btn2:hover {
-	background-color:#fff;
-	color:#00b6ed;}
+.login-btn1,
+.login-btn2 {
+  height: 20px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: #fff;
+  background-color: #00b6ed;
+  cursor: not-allowed;
+  font-family: "Andale Mono";
+  font-size: 16px;
+  border: none;
+  border-radius: 0;
+}
 
-.login-btn1 img, .login-btn2 img {
-	height:20px;
-	padding-right:10px;
-	opacity: 0.3;}
+.login-btn1:hover,
+.login-btn2:hover {
+  background-color: #fff;
+  color: #00b6ed;
+}
 
+.login-btn1 img,
+.login-btn2 img {
+  height: 20px;
+  padding-right: 10px;
+  opacity: 0.3;
+}
 
 /* = MENU CSS
 -------------------------------------------------------------- */
 #navbar {
-	float: left;
-	width: 100%;
-	height: 50px;
-	background-color:#fefefe;
-	z-index:3;
-	text-decoration: none;
+  float: left;
+  width: 100%;
+  height: 50px;
+  background-color: #fefefe;
+  z-index: 3;
+  text-decoration: none;
 }
 
 #navbar a {
-	font-size:16px;
-	font-family:'Andale Mono';
-	color:#FFF;}
+  font-size: 16px;
+  font-family: "Andale Mono";
+  color: #fff;
+}
 
 #navbar ul {
-	display:block;
-	padding:25px;
-	}
+  display: block;
+  padding: 25px;
+}
 
 #navbar li {
-	text-align:center;
-	display:block;
-	float:left;}
+  text-align: center;
+  display: block;
+  float: left;
+}
 
 /* = SOUS MENU CSS
 -------------------------------------------------------------- */
 #menu {
-	list-style-type: none;
-	padding: 0;
-	border: 0;
-	position: relative;
-	left: 0;}
+  list-style-type: none;
+  padding: 0;
+  border: 0;
+  position: relative;
+  left: 0;
+}
 
 #menu li {
-	width: 180px;
-	padding: 0;
-	border: 0;}
+  width: 180px;
+  padding: 0;
+  border: 0;
+}
 
-#menu li a:link, #menu li a:visited {
-	display: block;
-	height: 1%;
-	color: #333;
-	padding: 15px 8px;
-	margin-top:-34px;
-	/*border-right: 1px solid #333;*/
-	text-decoration: none;}
+#menu li a:link,
+#menu li a:visited {
+  display: block;
+  height: 1%;
+  color: #333;
+  padding: 15px 8px;
+  margin-top: -34px;
+  /*border-right: 1px solid #333;*/
+  text-decoration: none;
+}
 
 #menu li a:hover {
-	color:#00b6ed;}
-	
+  color: #00b6ed;
+}
+
 #menu .sousMenu {
-	display: none;
-	list-style-type: none;
-	padding: 0;
-	border: 0;
-	margin-top: 0;}
+  display: none;
+  list-style-type: none;
+  padding: 0;
+  border: 0;
+  margin-top: 0;
+}
 
 #menu .sousMenu li {
-	margin: 0;
-	padding: 0;
-	width: 180px;
-	border-top: 1px solid transparent;}
+  margin: 0;
+  padding: 0;
+  width: 180px;
+  border-top: 1px solid transparent;
+}
 
-#menu .sousMenu li a:link, #menu .sousMenu li a:visited {
-	display: block;
-	color: #00b6ed;
-	margin: 0;
-	border: 0;
-	text-decoration: none;
-	background-color:#333;}
+#menu .sousMenu li a:link,
+#menu .sousMenu li a:visited {
+  display: block;
+  color: #00b6ed;
+  margin: 0;
+  border: 0;
+  text-decoration: none;
+  background-color: #333;
+}
 
-#menu .sousMenu li a:hover{
-	background-image: none;
-	background-color: #00b6ed;
-	color:#FFF;}
+#menu .sousMenu li a:hover {
+  background-image: none;
+  background-color: #00b6ed;
+  color: #fff;
+}
 
-#menu li:hover > .sousMenu { display: block; }
+#menu li:hover > .sousMenu {
+  display: block;
+}
 
 #menu li:before {
-	content:"//";
-	color:#333;
-	display:block;
-	float:left;
-	margin-top:-16px;}
+  content: "//";
+  color: #333;
+  display: block;
+  float: left;
+  margin-top: -16px;
+}
 
 #menu li:first-child:before {
-    content: none;}
+  content: none;
+}
 
 #menu .sousMenu li:before {
-	content: none;}
+  content: none;
+}
 
 /* = TITRES SECTIONS CSS
 -------------------------------------------------------------- */
 .encart {
-	margin:0 auto;
-	width: 990px;
-	text-align: center;
-	vertical-align: middle;
-	padding: 8px;}
+  margin: 0 auto;
+  width: 990px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 8px;
+}
 
-.encart>header{
-	color: #00b6ed;
-	position:relative;
-	padding:63px 10px;
-	margin:0 auto;
-	text-align: left;
-	width:990px;}
+.encart > header {
+  color: #00b6ed;
+  position: relative;
+  padding: 63px 10px;
+  margin: 0 auto;
+  text-align: left;
+  width: 990px;
+}
 
-.encart>header>p>span{
-	color: #00b6ed;
-	position:relative;
-	padding:63px 10px;
-	margin:0 auto;
-	text-align: left;
-	width:990px;}
+.encart > header > p > span {
+  color: #00b6ed;
+  position: relative;
+  padding: 63px 10px;
+  margin: 0 auto;
+  text-align: left;
+  width: 990px;
+}
 
-.encart>header>h2{
-	font:48px/1 "Arkitech Round Light";
-	color:#333;
-	text-transform:uppercase;
-	letter-spacing:-1px;
-	margin:20px;}
+.encart > header > h2 {
+  font: 48px/1 "Arkitech Round Light";
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  margin: 20px;
+}
 
-#team>header>h2,#consoles>header>h2{
-	font:48px/1 "Arkitech Round Light";
-	color:#333;
-	text-transform:uppercase;
-	letter-spacing:-1px;
-	margin:20px;}
+#team > header > h2,
+#consoles > header > h2 {
+  font: 48px/1 "Arkitech Round Light";
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  margin: 20px;
+}
 
-.encart>header>h3{
-	font:20px/1 'Andale Mono';
-	color:#00b6ed;
-	margin-left:80px;
-	margin-top:-20px;
-	text-transform:uppercase;}
+.encart > header > h3 {
+  font: 20px/1 "Andale Mono";
+  color: #00b6ed;
+  margin-left: 80px;
+  margin-top: -20px;
+  text-transform: uppercase;
+}
 
-#team>header>h3{
-	font:16px/1 'Andale Mono';
-	color:#00b6ed;
-	margin-left:80px;
-	margin-top:-8px;
-	text-transform:uppercase;}
+#team > header > h3 {
+  font: 16px/1 "Andale Mono";
+  color: #00b6ed;
+  margin-left: 80px;
+  margin-top: -8px;
+  text-transform: uppercase;
+}
 
-#contact>header>h3{
-	font:18px/1 'Andale Mono';
-	color:#00b6ed;
-	margin-left:80px;
-	margin-top:-8px;
-	text-transform:uppercase;}
+#contact > header > h3 {
+  font: 18px/1 "Andale Mono";
+  color: #00b6ed;
+  margin-left: 80px;
+  margin-top: -8px;
+  text-transform: uppercase;
+}
 
-#concept>header>h3,#consoles>header>h3,#photo>header>h3, #news>header>h3 {
-	font:20px/1 'Andale Mono';
-	color:#00b6ed;
-	margin-left:80px;
-	margin-top:-8px;
-	text-transform:uppercase;}
+#concept > header > h3,
+#consoles > header > h3,
+#photo > header > h3,
+#news > header > h3 {
+  font: 20px/1 "Andale Mono";
+  color: #00b6ed;
+  margin-left: 80px;
+  margin-top: -8px;
+  text-transform: uppercase;
+}
 
-.encart>header>h4{
-	font:14px/1 'Andale Mono';
-	color:#333;
-	margin-left:85px;
-	margin-top:-10px;
-	text-transform:uppercase;}
+.encart > header > h4 {
+  font: 14px/1 "Andale Mono";
+  color: #333;
+  margin-left: 85px;
+  margin-top: -10px;
+  text-transform: uppercase;
+}
 
-.encart>header>h2>span,.encart>header>h3>span,.encart>header>h4>span{
-	display:block}
+.encart > header > h2 > span,
+.encart > header > h3 > span,
+.encart > header > h4 > span {
+  display: block;
+}
 
-.encart>header>p{
-	display:block;
-	margin:3px 16px 0 0;
-	width:100px;
-	height:100px;
-	border:solid #00b6ed;
-	border-radius:64px;
-	float:left}
+.encart > header > p {
+  display: block;
+  margin: 3px 16px 0 0;
+  width: 100px;
+  height: 100px;
+  border: solid #00b6ed;
+  border-radius: 64px;
+  float: left;
+}
 
-.encart>header>p>span{
-	width:100%;
-	height:100%;
-	display:block}
-
-
+.encart > header > p > span {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
 
 /* = AVIS CSS
 -------------------------------------------------------------- */
 .avis-container {
-	height:210px;
-	overflow:hidden;
-	margin:0 auto;
-	padding:30px 0 0;
-	text-align:center;
-	font:30px/1 'Andale Mono';
-	line-height: 1.2;
-	color:#FFFFFF;
-	z-index:2;
-	max-width:80%;
-	vertical-align: middle;
-	/* position: absolute;*/}
+  height: 210px;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 30px 0 0;
+  text-align: center;
+  font: 30px/1 "Andale Mono";
+  line-height: 1.2;
+  color: #ffffff;
+  z-index: 2;
+  max-width: 80%;
+  vertical-align: middle;
+  /* position: absolute;*/
+}
 
 .avis-container3 {
-	height:270px;
-	overflow:hidden;
-	margin:0 auto;
-	padding:30px 0 0;
-	text-align:center;
-	font:30px/1 'Andale Mono';
-	line-height: 1.5;
-	color:#FFFFFF;
-	z-index:2;
-	max-width:80%;
-	vertical-align: middle;
-	/* position: absolute;*/}
+  height: 270px;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 30px 0 0;
+  text-align: center;
+  font: 30px/1 "Andale Mono";
+  line-height: 1.5;
+  color: #ffffff;
+  z-index: 2;
+  max-width: 80%;
+  vertical-align: middle;
+  /* position: absolute;*/
+}
 
 .avis {
-	width:100%;
-	height:100%;
-	display:block;
-	vertical-align: middle;}
-
+  width: 100%;
+  height: 100%;
+  display: block;
+  vertical-align: middle;
+}
 
 /* = LA CARTE CSS
 -------------------------------------------------------------- */
 #carte {
-	width:100%;
-	height: auto;
-	margin-bottom:150px;
-	margin-top:0;
-	padding:0;
-	text-align: center;
-	background-color:#efefef;}
+  width: 100%;
+  height: auto;
+  margin-bottom: 150px;
+  margin-top: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #efefef;
+}
 
-#carte>header>p>span{
-	background:transparent url(../img/icon-carte.png) no-repeat scroll center center;
-	margin-top:-65px;
-	margin-left: -10px;}
+#carte > header > p > span {
+  background: transparent url(../img/icon-carte.png) no-repeat scroll center
+    center;
+  margin-top: -65px;
+  margin-left: -10px;
+}
 
-.carte-img{
-	position:relative;
-	top:-70px;
-	margin-top:30px;}
+.carte-img {
+  position: relative;
+  top: -70px;
+  margin-top: 30px;
+}
 
 /* = LA TEAM CSS
 -------------------------------------------------------------- */
 
-#team>header>p>span{
-	background:transparent url(../img/icon-team.png) no-repeat scroll center center;
-	margin-top:-65px;
-	margin-left: -10px;}
+#team > header > p > span {
+  background: transparent url(../img/icon-team.png) no-repeat scroll center
+    center;
+  margin-top: -65px;
+  margin-left: -10px;
+}
 
 #team {
-	width: 100%;
-	height: auto;
-	margin-bottom:0;
-	padding-bottom:60px;
-	text-align: center;
-	/*background-color:#cae1e7;*/
-	background: url(../img/bg-team.jpg) no-repeat scroll center center;}
+  width: 100%;
+  height: auto;
+  margin-bottom: 0;
+  padding-bottom: 60px;
+  text-align: center;
+  /*background-color:#cae1e7;*/
+  background: url(../img/bg-team.jpg) no-repeat scroll center center;
+}
 
 /* = LE CONCEPT CSS
 -------------------------------------------------------------- */
 #concept {
-	width: 990px;
-	height: auto;
-	margin-bottom:0;
-	padding-bottom:160px;
-	text-align: center;
-	vertical-align:middle;
-	background-color:#efefef;
-	position: relative;}
+  width: 990px;
+  height: auto;
+  margin-bottom: 0;
+  padding-bottom: 160px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #efefef;
+  position: relative;
+}
 
-#concept>header>p>span{background:transparent url(../img/icon-concept.png) no-repeat scroll center center;
-	margin-top:-65px;
-	margin-left: -10px;}
+#concept > header > p > span {
+  background: transparent url(../img/icon-concept.png) no-repeat scroll center
+    center;
+  margin-top: -65px;
+  margin-left: -10px;
+}
 
-#concept>section>#firstConcept{
-	position:relative;
-	text-align: center;
-	margin-bottom:60px;
-	width:50%;}
+#concept > section > #firstConcept {
+  position: relative;
+  text-align: center;
+  margin-bottom: 60px;
+  width: 50%;
+}
 
-#concept>section>#secondConcept{
-	position:relative;
-	text-align: center;
-	margin-top: 150px;
-	margin-bottom:0;
-	width:50%;}
+#concept > section > #secondConcept {
+  position: relative;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 0;
+  width: 50%;
+}
 
-#concept>section>#thirdConcept{
-	position:relative;
-	text-align: center;
-	margin-top:-70px;
-	width:50%;}
+#concept > section > #thirdConcept {
+  position: relative;
+  text-align: center;
+  margin-top: -70px;
+  width: 50%;
+}
 
-#firstConcept>header{font:40px/1 'Andale Mono';color:#00b6ed;margin-top:-90px;}
-#secondConcept>header{font:35px/1 'Andale Mono';color:#00b6ed;margin-top:-80px;}
-#thirdConcept>header{font:40px/1 'Andale Mono';color:#00b6ed;margin-top:-80px;}
-#concept>section>section>article>p{font:14px/1.7 'Andale Mono';padding-bottom:36px; color:#000;}
-#concept>section>section>article>p>strong{font:14px/1.7; font-family:'Andale Mono'; font-weight:bold;color:#000;}
-#concept>section>section>hr{margin:17px 0;border-top:0 solid #00b6ed;background:#00b6ed;}
-#concept>section>section>div{position:absolute;border:6px solid rgba(255, 255, 255, .2)}
+#firstConcept > header {
+  font: 40px/1 "Andale Mono";
+  color: #00b6ed;
+  margin-top: -90px;
+}
+#secondConcept > header {
+  font: 35px/1 "Andale Mono";
+  color: #00b6ed;
+  margin-top: -80px;
+}
+#thirdConcept > header {
+  font: 40px/1 "Andale Mono";
+  color: #00b6ed;
+  margin-top: -80px;
+}
+#concept > section > section > article > p {
+  font: 14px/1.7 "Andale Mono";
+  padding-bottom: 36px;
+  color: #000;
+}
+#concept > section > section > article > p > strong {
+  font: 14px/1.7;
+  font-family: "Andale Mono";
+  font-weight: bold;
+  color: #000;
+}
+#concept > section > section > hr {
+  margin: 17px 0;
+  border-top: 0 solid #00b6ed;
+  background: #00b6ed;
+}
+#concept > section > section > div {
+  position: absolute;
+  border: 6px solid rgba(255, 255, 255, 0.2);
+}
 
-#concept #firstConcept #firstCircle1{
-	top:0px;
-	left:530px;
-	width:420px;
-	height:420px;
-	border-radius:420px;
-	background:transparent url(../img/photos/6.jpg) no-repeat scroll center center;
-	z-index:2}
-	
-#concept #firstConcept #firstCircle2{
-	top:360px;
-	left:530px;
-	width:260px;
-	height:260px;
-	border-radius:260px;
-	background:transparent url(../img/photos/7.jpg) no-repeat scroll center center;
-	z-index:2}
-		
-#concept #secondConcept{margin-left:50%}
+#concept #firstConcept #firstCircle1 {
+  top: 0px;
+  left: 530px;
+  width: 420px;
+  height: 420px;
+  border-radius: 420px;
+  background: transparent url(../img/photos/6.jpg) no-repeat scroll center
+    center;
+  z-index: 2;
+}
 
-#concept #secondConcept #secondCircle1{
-	top:-20px;
-	left:-484px;
-	width:427px;
-	height:427px;
-	border-radius:427px;
-	background:transparent url(../img/photos/5.jpg) no-repeat scroll center center;
-	z-index:2}
-	
-#concept #secondConcept #secondCircle2{
-	top:300px;
-	left:-280px;
-	width:217px;
-	height:217px;
-	border-radius:217px;
-	background:transparent url(../img/photos/3.jpg) no-repeat scroll center center;
-	z-index:2}
-	
-#concept #thirdConcept{margin-bottom:0}
+#concept #firstConcept #firstCircle2 {
+  top: 360px;
+  left: 530px;
+  width: 260px;
+  height: 260px;
+  border-radius: 260px;
+  background: transparent url(../img/photos/7.jpg) no-repeat scroll center
+    center;
+  z-index: 2;
+}
 
-#concept #thirdConcept #thirdCircle1{
-	top:90px;
-	left:523px;
-	width:425px;
-	height:425px;
-	border-radius:425px;
-	background:transparent url(../img/photos/1.jpg) no-repeat scroll center center;
-	z-index:2}
-	
-#concept #thirdConcept #thirdCircle2{
-	top:470px;
-	left:523px;
-	width:230px;
-	height:230px;
-	border-radius:230px;
-	background:transparent url(../img/photos/2.jpg) no-repeat scroll center center;
-	z-index:2}
+#concept #secondConcept {
+  margin-left: 50%;
+}
 
-#concept #thirdConcept #thirdCircle3{
-	top:430px;
-	left:810px;
-	width:153px;
-	height:153px;
-	border-radius:153px;
-	background:transparent url(../img/photos/4.jpg) no-repeat scroll center center;
-	z-index:3}
+#concept #secondConcept #secondCircle1 {
+  top: -20px;
+  left: -484px;
+  width: 427px;
+  height: 427px;
+  border-radius: 427px;
+  background: transparent url(../img/photos/5.jpg) no-repeat scroll center
+    center;
+  z-index: 2;
+}
 
+#concept #secondConcept #secondCircle2 {
+  top: 300px;
+  left: -280px;
+  width: 217px;
+  height: 217px;
+  border-radius: 217px;
+  background: transparent url(../img/photos/3.jpg) no-repeat scroll center
+    center;
+  z-index: 2;
+}
+
+#concept #thirdConcept {
+  margin-bottom: 0;
+}
+
+#concept #thirdConcept #thirdCircle1 {
+  top: 90px;
+  left: 523px;
+  width: 425px;
+  height: 425px;
+  border-radius: 425px;
+  background: transparent url(../img/photos/1.jpg) no-repeat scroll center
+    center;
+  z-index: 2;
+}
+
+#concept #thirdConcept #thirdCircle2 {
+  top: 470px;
+  left: 523px;
+  width: 230px;
+  height: 230px;
+  border-radius: 230px;
+  background: transparent url(../img/photos/2.jpg) no-repeat scroll center
+    center;
+  z-index: 2;
+}
+
+#concept #thirdConcept #thirdCircle3 {
+  top: 430px;
+  left: 810px;
+  width: 153px;
+  height: 153px;
+  border-radius: 153px;
+  background: transparent url(../img/photos/4.jpg) no-repeat scroll center
+    center;
+  z-index: 3;
+}
 
 /* = CONSOLES ET JEUX CSS
 -------------------------------------------------------------- */
 #consoles {
-	width:100%;
-	height: 800px;
-	margin-bottom:0px;
-	margin-top:0;
-	padding-bottom:0px;
-	text-align: center;
-	/*background-color:#333;*/
-	background: url(../img/bg_consoles.png);}
+  width: 100%;
+  height: 800px;
+  margin-bottom: 0px;
+  margin-top: 0;
+  padding-bottom: 0px;
+  text-align: center;
+  /*background-color:#333;*/
+  background: url(../img/bg_consoles.png);
+}
 
-#consoles>header>p>span{
-	background:transparent url(../img/icon-consoles.png) no-repeat scroll center center;
-	margin-top:-65px;
-	margin-left: -10px;}
+#consoles > header > p > span {
+  background: transparent url(../img/icon-consoles.png) no-repeat scroll center
+    center;
+  margin-top: -65px;
+  margin-left: -10px;
+}
 
 #jeux {
-	width:990px;
-	margin:0 auto;
-	margin-top:-70px;
-	padding:0;
-	height:300px;
-	text-align: center;
-	vertical-align: middle;}
+  width: 990px;
+  margin: 0 auto;
+  margin-top: -70px;
+  padding: 0;
+  height: 300px;
+  text-align: center;
+  vertical-align: middle;
+}
 
 .item {
-	width:100px;
-	height:100px;	
-	margin-top:10px;
-	margin-left:10px;
-	margin-right:10px;
-	margin-bottom:10px;
-	border-radius:5px;
-	overflow:hidden;
-	position:relative;
-	float:left}
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  float: left;
+}
 
 .images-item {
-	border:0;
-	position:relative}
+  border: 0;
+  position: relative;
+}
 
 /* = PHOTOS & VIDEOS CSS
 -------------------------------------------------------------- */
 #photo {
-	width:990px;
-	height: auto;
-	margin-bottom:0px;
-	margin-top:0;
-	padding-bottom:0px;
-	text-align: center;}
+  width: 990px;
+  height: auto;
+  margin-bottom: 0px;
+  margin-top: 0;
+  padding-bottom: 0px;
+  text-align: center;
+}
 
-#photo>header>p>span{
-	background:transparent url(../img/icon-photos.png) no-repeat scroll center center;
-	margin-top:-65px;
-	margin-left: -10px;}
+#photo > header > p > span {
+  background: transparent url(../img/icon-photos.png) no-repeat scroll center
+    center;
+  margin-top: -65px;
+  margin-left: -10px;
+}
 
 #txt-video {
-	font-size:28px;
-	line-height:1.5;
-	color:#333;
-	text-decoration: none;
-	width:990px;
-	margin-bottom: 30px;
-	text-align: left;
-	vertical-align: middle;
-	position: relative;}
+  font-size: 28px;
+  line-height: 1.5;
+  color: #333;
+  text-decoration: none;
+  width: 990px;
+  margin-bottom: 30px;
+  text-align: left;
+  vertical-align: middle;
+  position: relative;
+}
 
 /* = LES NEWS CSS
 -------------------------------------------------------------- */
 #news {
-	width:990px;
-	margin-bottom:200px;
-	margin-top:0;
-	padding:0;
-	text-align: center;
-	background-color:#efefef;}
+  width: 990px;
+  margin-bottom: 200px;
+  margin-top: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #efefef;
+}
 
-#news>header>p>span{
-	background:transparent url(../img/icon-news.png) no-repeat scroll center center;
-	margin-top:-65px;
-	margin-left: -10px;}
+#news > header > p > span {
+  background: transparent url(../img/icon-news.png) no-repeat scroll center
+    center;
+  margin-top: -65px;
+  margin-left: -10px;
+}
 
 #news-title {
-	padding-top:-30px;
-	padding-bottom:20px;
-	display: table-cell;}
+  padding-top: -30px;
+  padding-bottom: 20px;
+  display: table-cell;
+}
 
 .picto-news-fb {
-	text-align: left;
-	font-size: 47px;
-	letter-spacing:-2px;
-	width: 480px;
-	color: #2c6ee9;
-	margin-right:20px;
-	float:left;}
+  text-align: left;
+  font-size: 47px;
+  letter-spacing: -2px;
+  width: 480px;
+  color: #2c6ee9;
+  margin-right: 20px;
+  float: left;
+}
 
 .picto-news-tw {
-	text-align: left;
-	font-size: 47px;
-	letter-spacing:-2px;
-	width: 480px;
-	color: #2796dd;
-	float:left;}
+  text-align: left;
+  font-size: 47px;
+  letter-spacing: -2px;
+  width: 480px;
+  color: #2796dd;
+  float: left;
+}
 
-.picto-news-fb>img, .picto-news-tw>img {
-	padding-right:10px;}
+.picto-news-fb > img,
+.picto-news-tw > img {
+  padding-right: 10px;
+}
 
 .fb-page {
-	margin-left:-20px;}
+  margin-left: -20px;
+}
 
 .fb-like {
-	text-align: left;
-	margin-bottom: 10px;
-	width: 490px;
-	float:left;}
+  text-align: left;
+  margin-bottom: 10px;
+  width: 490px;
+  float: left;
+}
 
 .tw-follow {
-	float: left;
-	margin-left: 10px;
-	margin-bottom: 10px;}
-
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
 
 /* = CONTACT CSS
 -------------------------------------------------------------- */
-#contact{
-	position:relative;
-	width:990px;}
+#contact {
+  position: relative;
+  width: 990px;
+}
 
-#contact>header>p>span {
-	background:transparent url(../img/icon-contacts.png) no-repeat scroll center center;
-	margin-top:-65px;
-	margin-left: -10px;}
+#contact > header > p > span {
+  background: transparent url(../img/icon-contacts.png) no-repeat scroll center
+    center;
+  margin-top: -65px;
+  margin-left: -10px;
+}
 
 #plan {
-	float: left;
-	position:relative;
-	margin-top:-20px;
-	margin-bottom: 100px;
-	padding-right:20px;
-	clear: both;}
+  float: left;
+  position: relative;
+  margin-top: -20px;
+  margin-bottom: 100px;
+  padding-right: 20px;
+  clear: both;
+}
 
 #adress {
-	width:300px;
-	font-size:16px;
-	color:#333;
-	position:relative;
-	text-align: left;
-	margin-left: 40px;
-	float: left;}
+  width: 300px;
+  font-size: 16px;
+  color: #333;
+  position: relative;
+  text-align: left;
+  margin-left: 40px;
+  float: left;
+}
 
 #adress .picto-adress {
-	float: left;
-	padding-right:20px;}
+  float: left;
+  padding-right: 20px;
+}
 
-#adress .picto-adress>p>img{
-	vertical-align: middle;}
-
+#adress .picto-adress > p > img {
+  vertical-align: middle;
+}
 
 /* = PARTENAIRES CSS
 -------------------------------------------------------------- */
-#footer-wrapper{
-	position: relative;
-	width:100%;
-	height:280px;
-	background:url(../img/bg_contact.png);
-	padding:0;
-	vertical-align: middle;
-	clear:both;}
+#footer-wrapper {
+  position: relative;
+  width: 100%;
+  height: 280px;
+  background: url(../img/bg_contact.png);
+  padding: 0;
+  vertical-align: middle;
+  clear: both;
+}
 
 #footer-wrapper .partners {
-	margin:0 auto;
-	padding:0 auto;
-	text-align: center;
-	vertical-align: middle;}
+  margin: 0 auto;
+  padding: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+}
 
-#footer-wrapper .partners>h2 {
-	width:990px;
-	font:30px/1 "Andale Mono";
-	color: #f1eee9;
-	text-transform:uppercase;
-	margin:0 auto;
-	padding-top:30px;
-	padding-bottom:30px;
-	text-align: left;}
+#footer-wrapper .partners > h2 {
+  width: 990px;
+  font: 30px/1 "Andale Mono";
+  color: #f1eee9;
+  text-transform: uppercase;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: left;
+}
 
 /* = FOOTER CSS
 -------------------------------------------------------------- */
 .copyright-wrapper {
-	width: 100%;
-	margin:0;
-	padding-top:10px;
-	padding-bottom:10px;
-	background-color:#1D1D1D;
-	position:relative;
-	text-align: center;}
+  width: 100%;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #1d1d1d;
+  position: relative;
+  text-align: center;
+}
 
-.container-copyright{
-	vertical-align: middle;}
+.container-copyright {
+  vertical-align: middle;
+}
 
-.copyright-txt{
-	padding-top:5px;
-	color:#fff;
-	font-size:14px;}
+.copyright-txt {
+  padding-top: 5px;
+  color: #fff;
+  font-size: 14px;
+}
 
-.copyright-txt span{
-	color:#00b6ed;
-	text-decoration:none;}
+.copyright-txt span {
+  color: #00b6ed;
+  text-decoration: none;
+}
