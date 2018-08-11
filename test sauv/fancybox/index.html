@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>fancyBox - Fancy jQuery Lightbox Alternative | Demonstration</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<!-- Add jQuery library -->
+	<script type="text/javascript" src="../lib/jquery-1.10.2.min.js"></script>
+
+	<!-- Add mousewheel plugin (this is optional) -->
+	<script type="text/javascript" src="../lib/jquery.mousewheel.pack.js?v=3.1.3"></script>
+
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="../source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+</head>
+<body>
+
+	<h3>Consoles et jeux</h3>
+    
+    <div class="item">
+	<div class="images-item">
+	<a class="fancybox fancybox.iframe" href="gamecube.html"><img src="img/logo-ps1.jpg" alt="LOGO GAMECUBE !" title="LOGO GAMECUBE !" width="100" height="100"/></a>
+    </div> <!-- images-item -->
+</div> <!-- item -->
+
+    <div class="item">
+	<div class="images-item">
+	<a class="fancybox fancybox.iframe" href="wii.html"><img src="img/logo-wii.jpg" alt="LOGO WII !" title="LOGO WII !" width="100" height="100"/></a>
+    </div> <!-- images-item -->
+</div> <!-- item -->
+
+    <div class="item">
+	<div class="images-item">
+	<a class="fancybox fancybox.iframe" href="wiiu.html"><img src="img/logo-wiiu.jpg" alt="LOGO WII U !" title="LOGO WII U !" width="100" height="100"/></a>
+    </div> <!-- images-item -->
+</div> <!-- item -->
+
+    <div class="item">
+	<div class="images-item">
+	<a class="fancybox fancybox.iframe" href="gamecube.html"><img src="img/logo-nes.jpg" alt="LOGO NES !" title="LOGO NES !" width="100" height="100"/></a>
+    </div> <!-- images-item -->
+</div> <!-- item -->
+
+    <div class="item">
+	<div class="images-item">
+	<a class="fancybox fancybox.iframe" href="gamecube.html"><img src="img/logo-snes.jpg" alt="LOGO SNES !" title="LOGO SNES !" width="100" height="100"/></a>
+    </div> <!-- images-item -->
+</div> <!-- item -->
+
+    <div class="item">
+	<div class="images-item">
+	<a class="fancybox fancybox.iframe" href="gamecube.html"><img src="img/logo-n64.jpg" alt="LOGO N64 !" title="LOGO N64 !" width="100" height="100"/></a>
+    </div> <!-- images-item -->
+</div> <!-- item -->
+
+<style>
+.images-item {
+	border:0;
+	position:relative;
+}
+
+.item {
+	width:100px;
+	height:100px;	
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+	border-radius:5px;
+	overflow:hidden;
+	position:relative;
+	float:left;
+}
+
+</style>
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			$('.fancybox').fancybox();
+
+		});
+
+	</script>
+</body>
+</html>

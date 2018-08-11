@@ -1,0 +1,21 @@
+/*
+Theme Name: WP Game Over
+Theme URI: http://www.gameovernantes.com
+Description: A custom theme made for Game Over Nantes Bar.
+Author: Halvard DOUAUD
+Author URI: http://www.halvard.info/
+Version: 1.0
+Tags: responsive, white, bootstrap
+
+License: Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)
+License URI: https://creativecommons.org/licenses/by-nd/4.0/
+
+This simple theme was built using the example Bootstrap theme "Basic marketing site" found on the Bootstrap web site http://twitter.github.com/bootstrap/examples/hero.html
+*/
+
+@import url('bootstrap/css/bootstrap.css');
+@import url('css/blueimp-gallery.min.css');
+@import url('css/sidebar.css');
+@import url('font-awesome/css/font-awesome.min.css');
+@import url('css/global.css');
+@import url('css/fonts.css');

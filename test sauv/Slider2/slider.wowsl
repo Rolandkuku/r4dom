@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>8.7.1</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>none</CaptionsEffect>
+            <Controls>true</Controls>
+            <FontSize>13</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>super-mario-kart</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>carousel_basic</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>550</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>/Applications/WOWSlider.app/Contents/Resources/templates/backgnd/cursive/</ImageTemplate>
+            <ImageTemplateName>Cursive</ImageTemplateName>
+            <ImageWidth>1205</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>true</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>/Users/Oli/Desktop/site web r4ndom/Slider/untitled folder 2/wowslider.html</PublishFileName>
+            <PublishIndex>wowslider.html</PublishIndex>
+            <PublishPath>/Users/Oli/Desktop/site web r4ndom/Slider/untitled folder 2</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>1</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>2</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateColor>#00b6ed</TemplateColor>
+            <TemplateFont>Pacifico</TemplateFont>
+            <TemplateName>cursive</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>/Users/Oli/Desktop/site web r4ndom/img/header1.jpg</url>
+                <usertarget>_self</usertarget>
+                <filesize>77549</filesize>
+            </Image>
+            <Image>
+                <url>/Users/Oli/Desktop/site web r4ndom/img/header2.jpg</url>
+                <filesize>145709</filesize>
+            </Image>
+            <Image>
+                <url>/Users/Oli/Desktop/site web r4ndom/img/header3.jpg</url>
+                <filesize>114696</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>
