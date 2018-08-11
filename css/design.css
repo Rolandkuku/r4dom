@@ -292,34 +292,27 @@ hr {
 
 /* = TITRES SECTIONS CSS
 -------------------------------------------------------------- */
-.encart {
-  margin: 0 auto;
-  width: 990px;
-  text-align: center;
-  vertical-align: middle;
-  padding: 8px;
-}
 
-.encart > header {
+.encart .encart__header {
   color: #00b6ed;
   position: relative;
   padding: 63px 10px;
   margin: 0 auto;
   text-align: left;
-  width: 990px;
+  /* width: 990px; */
 }
 
-.encart > header > p > span {
+.encart .encart__header .encart__icon {
   color: #00b6ed;
   position: relative;
   padding: 63px 10px;
   margin: 0 auto;
   text-align: left;
-  width: 990px;
+  /* width: 990px; */
 }
 
-.encart > header > h2 {
-  font: 48px/1 "Arkitech Round Light";
+.encart .encart__header .encart__title {
+  font: 3rem/1 "Arkitech Round Light";
   color: #333;
   text-transform: uppercase;
   letter-spacing: -1px;
@@ -335,7 +328,7 @@ hr {
   margin: 20px;
 }
 
-.encart > header > h3 {
+.encart .encart__header .encart__subtitle {
   font: 20px/1 "Andale Mono";
   color: #00b6ed;
   margin-left: 80px;
@@ -370,7 +363,7 @@ hr {
   text-transform: uppercase;
 }
 
-.encart > header > h4 {
+.encart .encart__header .encart__text--muted {
   font: 14px/1 "Andale Mono";
   color: #333;
   margin-left: 85px;
@@ -384,7 +377,7 @@ hr {
   display: block;
 }
 
-.encart > header > p {
+.encart .encart__header .encart__icon-container {
   display: block;
   margin: 3px 16px 0 0;
   width: 100px;
@@ -394,10 +387,14 @@ hr {
   float: left;
 }
 
-.encart > header > p > span {
+.encart .encart__header .encart__icon {
   width: 100%;
   height: 100%;
   display: block;
+}
+
+.encart .encart__header .encart__header-separator {
+  margin-top: -29px;
 }
 
 /* = AVIS CSS
@@ -451,7 +448,7 @@ hr {
   background-color: #efefef;
 }
 
-#carte > header > p > span {
+#carte .encart__icon {
   background: transparent url(../img/icon-carte.png) no-repeat scroll center
     center;
   margin-top: -65px;
@@ -460,7 +457,7 @@ hr {
 
 .carte-img {
   position: relative;
-  top: -70px;
+  /* top: -70px; */
   margin-top: 30px;
 }
 
