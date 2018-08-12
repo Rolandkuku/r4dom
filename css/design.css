@@ -20,7 +20,6 @@ body {
 }
 
 body {
-  min-width: 400px;
   min-height: 100%;
   margin: 0;
   padding: 0;
@@ -735,8 +734,6 @@ h2 {
 .fb-like {
   text-align: left;
   margin-bottom: 10px;
-  width: 490px;
-  float: left;
 }
 
 .tw-follow {
