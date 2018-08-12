@@ -86,11 +86,11 @@
 
     <div class="container-fluid">
       <div class="banner-top row justify-content-between p-1">
-        <div id="left" class="col-auto pt-2">
+        <div id="left" class="col pt-2">
           <p>Ouvert du lundi au samedi de 17h à 02h |
             <a href="mailto:contact@r4ndombar.com" style="color:#FFF;"> contact@r4ndombar.com </a>| 05 33 57 75 81</p>
         </div>
-        <div class="login col">
+        <div class="login col-auto d-none d-lg-block">
           <button class="login-btn1">
             <img src="img/icon-login.png" />Se connecter</button>
           <button class="login-btn2">
@@ -237,10 +237,8 @@
         <div class="col-4 d-none d-lg-block">
           <img src="img/pika.gif" />
         </div>
-        <div class="w-100">
-          <img src="img/black_line_triforce.png" class="encart__header-separator" />
-        </div>
       </div>
+      <img src="img/black_line_triforce.png" class="w-100" />
 
 
       <div class="carte-img">
@@ -448,7 +446,7 @@
 
     <section class="encart pb-5" id="consoles">
 
-      <div class="pt-5 mb-5">
+      <div class="pt-5 mb-5 container">
         <div class="d-flex justify-content-center">
           <div class="encart__header w-75">
             <p class="encart__icon-container d-none d-sm-inline">
@@ -462,10 +460,10 @@
             </h3>
           </div>
         </div>
-        <img src="img/black_line_triforce.png" class="mt-3 w-75" />
+        <img src="img/black_line_triforce.png" class="w-75" />
       </div>
 
-      <div id="jeux">
+      <div id="jeux" class="container">
 
         <p class="text-center lead">( Cliquez sur une image pour voir la liste des jeux )</p>
 
@@ -620,7 +618,7 @@
     </section>
     <hr/>
 
-    <section class="encart" id="photo">
+    <section class="encart container" id="photo">
 
       <div class="pt-5 mb-5">
         <div class="encart__header w-75">
@@ -650,7 +648,7 @@
       </div>
     </section>
 
-    <section class="encart" id="news">
+    <section class="encart container mb-5" id="news">
 
       <div class="pt-5 mb-5">
         <div class="encart__header w-75">
@@ -703,10 +701,6 @@
           </div>
         </div>
       </div>
-
-
-
-
     </section>
 
     <section class="avis" style="background:url(img/bg_texture.jpg) no-repeat top left scroll; background-attachment:fixed; background-position:50% 0; background-repeat:repeat;">
@@ -742,7 +736,7 @@
         </div>
       </div>
 
-      <div id="plan">
+      <div id="plan" class="container">
         <div class="row justify-content-center align-items-center p-4">
           <div class="col">
             <div id="adress">
@@ -867,15 +861,16 @@
       </div>
     </section>
 
-    <section class="copyright-wrapper" <div class="container-copyright">
-      <div class="copyright-txt">
-        <span>© Copyright 2018 R4NDOM BAR ESPORT & RETROGAMING</span> |
-        <a href="img/doc/CGU.pdf" onclick="window.open(this.href,'_blank'); return false;">C.G.U</a> |
-        <a href="img/doc/mentions-legales.pdf" onclick="window.open(this.href,'_blank'); return false;">MENTIONS LÉGALES</a> |
-        <a href="img/doc/FAQ.pdf" onclick="window.open(this.href,'_blank'); return false;">F.A.Q</a>
+    <section class="copyright-wrapper">
+      <div class="container-copyright">
+        <div class="copyright-txt">
+          <span>© Copyright 2018 R4NDOM BAR ESPORT & RETROGAMING</span> |
+          <a href="img/doc/CGU.pdf" onclick="window.open(this.href,'_blank'); return false;">C.G.U</a> |
+          <a href="img/doc/mentions-legales.pdf" onclick="window.open(this.href,'_blank'); return false;">MENTIONS LÉGALES</a> |
+          <a href="img/doc/FAQ.pdf" onclick="window.open(this.href,'_blank'); return false;">F.A.Q</a>
+        </div>
       </div>
-  </div>
-  </section>
+    </section>
 
   </div>
 

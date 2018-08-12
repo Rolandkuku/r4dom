@@ -148,7 +148,7 @@ hr {
 -------------------------------------------------------------- */
 .login {
   padding-top: 5px;
-  float: right;
+  text-align: right;
   z-index: 3;
   cursor: not-allowed;
 }
@@ -790,7 +790,6 @@ h2 {
 }
 
 #footer-wrapper .partners > h2 {
-  width: 990px;
   font: 30px/1 "Andale Mono";
   color: #f1eee9;
   text-transform: uppercase;
