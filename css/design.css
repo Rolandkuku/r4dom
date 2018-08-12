@@ -400,7 +400,6 @@ hr {
 /* = AVIS CSS
 -------------------------------------------------------------- */
 .avis-container {
-  height: 210px;
   overflow: hidden;
   margin: 0 auto;
   padding: 30px 0 0;
@@ -411,7 +410,6 @@ hr {
   z-index: 2;
   max-width: 80%;
   vertical-align: middle;
-  /* position: absolute;*/
 }
 
 .avis-container3 {
@@ -484,8 +482,6 @@ hr {
 /* = LE CONCEPT CSS
 -------------------------------------------------------------- */
 #concept {
-  width: 990px;
-  height: auto;
   margin-bottom: 0;
   padding-bottom: 160px;
   text-align: center;
@@ -494,49 +490,43 @@ hr {
   position: relative;
 }
 
-#concept > header > p > span {
+#concept .concept-icon {
   background: transparent url(../img/icon-concept.png) no-repeat scroll center
     center;
   margin-top: -65px;
   margin-left: -10px;
 }
 
+#concept article {
+  font-size: 1.3rem;
+}
+
 #concept > section > #firstConcept {
-  position: relative;
   text-align: center;
-  margin-bottom: 60px;
-  width: 50%;
 }
 
 #concept > section > #secondConcept {
-  position: relative;
   text-align: center;
-  margin-top: 150px;
-  margin-bottom: 0;
-  width: 50%;
 }
 
 #concept > section > #thirdConcept {
-  position: relative;
   text-align: center;
-  margin-top: -70px;
-  width: 50%;
 }
 
-#firstConcept > header {
+#firstConcept > header,
+h2 {
   font: 40px/1 "Andale Mono";
   color: #00b6ed;
-  margin-top: -90px;
 }
-#secondConcept > header {
+#secondConcept > header,
+h2 {
   font: 35px/1 "Andale Mono";
   color: #00b6ed;
-  margin-top: -80px;
 }
-#thirdConcept > header {
+#thirdConcept > header,
+h2 {
   font: 40px/1 "Andale Mono";
   color: #00b6ed;
-  margin-top: -80px;
 }
 #concept > section > section > article > p {
   font: 14px/1.7 "Andale Mono";
@@ -579,10 +569,6 @@ hr {
   background: transparent url(../img/photos/7.jpg) no-repeat scroll center
     center;
   z-index: 2;
-}
-
-#concept #secondConcept {
-  margin-left: 50%;
 }
 
 #concept #secondConcept #secondCircle1 {
