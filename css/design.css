@@ -666,15 +666,13 @@ h2 {
 /* = PHOTOS & VIDEOS CSS
 -------------------------------------------------------------- */
 #photo {
-  width: 990px;
-  height: auto;
   margin-bottom: 0px;
   margin-top: 0;
   padding-bottom: 0px;
   text-align: center;
 }
 
-#photo > header > p > span {
+#photo .photo-icon {
   background: transparent url(../img/icon-photos.png) no-repeat scroll center
     center;
   margin-top: -65px;
@@ -686,9 +684,8 @@ h2 {
   line-height: 1.5;
   color: #333;
   text-decoration: none;
-  width: 990px;
   margin-bottom: 30px;
-  text-align: left;
+  text-align: center;
   vertical-align: middle;
   position: relative;
 }
@@ -696,15 +693,13 @@ h2 {
 /* = LES NEWS CSS
 -------------------------------------------------------------- */
 #news {
-  width: 990px;
-  margin-bottom: 200px;
   margin-top: 0;
   padding: 0;
   text-align: center;
   background-color: #efefef;
 }
 
-#news > header > p > span {
+#news .news-icon {
   background: transparent url(../img/icon-news.png) no-repeat scroll center
     center;
   margin-top: -65px;
@@ -712,28 +707,21 @@ h2 {
 }
 
 #news-title {
-  padding-top: -30px;
   padding-bottom: 20px;
-  display: table-cell;
 }
 
 .picto-news-fb {
-  text-align: left;
-  font-size: 47px;
+  text-align: center;
+  font-size: 2rem;
   letter-spacing: -2px;
-  width: 480px;
   color: #2c6ee9;
-  margin-right: 20px;
-  float: left;
 }
 
 .picto-news-tw {
-  text-align: left;
-  font-size: 47px;
+  text-align: center;
+  font-size: 2rem;
   letter-spacing: -2px;
-  width: 480px;
   color: #2796dd;
-  float: left;
 }
 
 .picto-news-fb > img,
